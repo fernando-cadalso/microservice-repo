@@ -1,8 +1,0 @@
-spring:
-  datasource:
-    password: MicroService_p4$$
-    username:  microservice_user
-    url: 'jdbc:mysql://srv-ubuntu-db:3306/microservice_db'
-  jpa:
-    hibernate:
-      ddl-auto: update
