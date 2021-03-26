@@ -1,1 +1,8 @@
-Teste
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: 'jdbc:mysql://srv-ubuntu-db:3306/microservice_loja_db'
+    username:  microservice_user
+    password: MicroService_p4$$
