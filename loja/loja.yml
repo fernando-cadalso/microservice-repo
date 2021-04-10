@@ -7,6 +7,15 @@ spring:
     url: 'jdbc:mysql://35.237.112.170:3306/microservice_loja_db'
     username:  microservice_user
     password: MicroService_p4$$
+    #Configurações para resolver Hystrix caindo no fallback em toda requisição.
+    hikari:
+      connection-test-query: SELECT 1 FROM DUAL
+      minimum-idle: 1
+      maximum-pool-size: 5
+      pool-name: havasPoolName
+      auto-commit: false
+      type: com.zaxxer.hikari.HikariDataSource
+   
     
 #security:
 #  oauth2:
