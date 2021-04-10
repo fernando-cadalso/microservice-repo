@@ -7,7 +7,7 @@ spring:
     hibernate:
       ddl-auto: update
       
-security:
-  oauth2:
-   resource:
-     user-info-uri: https://auth-cadalso.herokuapp.com/user #A URL do servidor de autenticação que retorna os dados do usuário autenticado.         
+#security:
+#  oauth2:
+#  resource:
+#     user-info-uri: https://auth-cadalso.herokuapp.com/user #A URL do servidor de autenticação que retorna os dados do usuário autenticado.         
