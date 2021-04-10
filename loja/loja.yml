@@ -4,7 +4,7 @@ spring:
       ddl-auto: update
   datasource:
     #url: 'jdbc:mysql://localhost:3306/microservice_loja_db'
-    url: 'jdbc:mysql://srv-ubuntu-db:3306/microservice_loja_db'
+    url: 'jdbc:mysql://35.237.112.170:3306/microservice_loja_db'
     username:  microservice_user
     password: MicroService_p4$$
     
