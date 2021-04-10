@@ -13,3 +13,6 @@ security:
    resource:
      #user-info-uri: http://localhost:8088/user #A URL do servidor de autenticação que retorna os dados do usuário autenticado.   
      user-info-uri: https://auth-cadalso.herokuapp.com/user #A URL do servidor de autenticação que retorna os dados do usuário autenticado.   
+     
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+
