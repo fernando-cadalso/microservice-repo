@@ -3,13 +3,13 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: 'jdbc:mysql://localhost:3306/microservice_loja_db'
-    #url: 'jdbc:mysql://srv-ubuntu-db:3306/microservice_loja_db'
+    #url: 'jdbc:mysql://localhost:3306/microservice_loja_db'
+    url: 'jdbc:mysql://srv-ubuntu-db:3306/microservice_loja_db'
     username:  microservice_user
     password: MicroService_p4$$
     
 security:
   oauth2:
    resource:
-     user-info-uri: http://localhost:8088/user #A URL do servidor de autenticação que retorna os dados do usuário autenticado.   
-     #user-info-uri: http://srv-ubuntu-db:8088/user #A URL do servidor de autenticação que retorna os dados do usuário autenticado.   
+     #user-info-uri: http://localhost:8088/user #A URL do servidor de autenticação que retorna os dados do usuário autenticado.   
+     user-info-uri: http://srv-ubuntu-db:8088/user #A URL do servidor de autenticação que retorna os dados do usuário autenticado.   
