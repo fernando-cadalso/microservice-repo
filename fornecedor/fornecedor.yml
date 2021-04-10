@@ -6,3 +6,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+      
+security:
+  oauth2:
+   resource:
+     user-info-uri: http://srv-ubuntu-db:8088/user #A URL do servidor de autenticação que retorna os dados do usuário autenticado.         
