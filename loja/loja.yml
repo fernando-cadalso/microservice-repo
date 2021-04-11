@@ -3,21 +3,10 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    #url: 'jdbc:mysql://localhost:3306/microservice_loja_db'
-    url: 'jdbc:mysql://35.237.112.170:3306/microservice_loja_db'
-    username:  microservice_user
-    password: MicroService_p4$$
-    #Configurações para resolver Hystrix caindo no fallback em toda requisição.
-    hikari:
-      connection-test-query: SELECT 1 FROM DUAL
-      minimum-idle: 2
-      maximum-pool-size: 6
-      pool-name: havasPoolName
-      auto-commit: false
-      type: com.zaxxer.hikari.HikariDataSource
-      connection-timeout: 3000      
-      idle-timeout: 40000
-      max-lifetime: 900000
+    password: '!$&H0m3369'
+    username: root
+    url: 'jdbc:mysql://localhost:3306/microservice_db'
+    #url: 'jdbc:mysql://35.237.112.170:3306/microservice_db'
    
     
 #security:
