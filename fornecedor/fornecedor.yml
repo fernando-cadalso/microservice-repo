@@ -7,17 +7,6 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  #Configurações para resolver Hystrix caindo no fallback em toda requisição.
-  hikari:
-    connection-test-query: SELECT 1 FROM DUAL
-    minimum-idle: 2
-    maximum-pool-size: 6
-    pool-name: havasPoolName
-    auto-commit: false
-    type: com.zaxxer.hikari.HikariDataSource
-    connection-timeout: 3000      
-    idle-timeout: 40000
-    max-lifetime: 900000
       
 #security:
 #  oauth2:
