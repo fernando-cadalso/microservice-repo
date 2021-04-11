@@ -6,9 +6,4 @@ spring:
     #url: 'jdbc:mysql://35.237.112.170:3306/microservice_db'
   jpa:
     hibernate:
-      ddl-auto: update
-      
-security:
-  oauth2:
-  resource:
-     user-info-uri: https://auth-cadalso.herokuapp.com/user #A URL do servidor de autenticação que retorna os dados do usuário autenticado.         
+      ddl-auto: update            
