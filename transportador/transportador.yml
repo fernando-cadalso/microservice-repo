@@ -1,8 +1,9 @@
 spring:
   datasource:
-    password: MicroService_p4$$
-    username:  microservice_user
-    url: 'jdbc:mysql://35.237.112.170:3306/microservice_transportador_db'
+    password: '!$&H0m3369'
+    username: root
+    url: 'jdbc:mysql://localhost:3306/microservice_db'
+    #url: 'jdbc:mysql://35.237.112.170:3306/microservice_db'
   jpa:
     hibernate:
       ddl-auto: update
